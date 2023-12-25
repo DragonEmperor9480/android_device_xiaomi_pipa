@@ -5,4 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_pipa.mk
+    $(LOCAL_DIR)/derp_pipa.mk
+
+COMMON_LUNCH_CHOICES := \
+    derp_pipa-user \
+    derp_pipa-userdebug \
+    derp_pipa-eng
